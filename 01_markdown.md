@@ -9,6 +9,7 @@ Index
 * [有序列表]
 * [斜體]
 * [粗體]
+* [CheckBox]
 * [分隔線]
 * [換行]
 * [表格]
@@ -21,9 +22,15 @@ Index
 ### 三級標題
 
 ## 無序列表
-* 項目
-* 項目
-
+* Item 1 
+* Item 2 
+  * Item 2a
+  * Item 2b
+    * Item 2b-1
+      * Item 2b-1-1
+    * Item 2b-2
+  
+  
 ## 有序列表
 1. 項次1
 2. 項次2
@@ -34,8 +41,23 @@ Index
 ## 粗體
 前面為普通字體**中間是粗體**後面恢復正常
 
+## CheckBox
+- [x] This is a complete item
+- [ ] This is an incomplete item
+
 ## 分隔線
 --- 
+123
+* * *
+AAA
+***
+BBB
+*****
+CCC
+- - -
+DDD
+---------------------
+
 ## 換行 
 這些內容,
 會在同一行
@@ -44,7 +66,14 @@ Index
 
 需要多一行空行
 
----
+## Block
+> This is a blockquote with two paragraphs. 
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> This is the first level of quoting.
+>
+> > This is nested blockquote.
+>
+> Back to the first level.
 
 ## 表格
 
